@@ -2,18 +2,18 @@
 Класс FrezeRoiCalculator помогает оценивать экономическую целесообразность покупки той или иной фрезы, позволяя проанализировать ключевые факторы производства, влияющие на конечную рентабельность инвестирования в инструмент.
 
 #### Важные поля и методы:
-manufacturer_name	str	Название производителя \n
-freze_price	int/float	Стоимость одной фрезы \n
-tool_life	int	Ресурс инструмента (сколько деталей он способен обработать) \n
-cutting_speed	int/float	Скорость резания (используется для анализа производительности) \n
-production_cost_per_piece	int/float	Себестоимость производства одной детали \n
-product_selling_price	int/float	Цена реализации готового изделия \n
-additional_costs	int/float	Дополнительные фиксированные расходы \n
-equipment_amortization	int/float	Амортизация оборудования \n
-hourly_wage	int/float	Среднечасовая ставка оплаты труда \n
-time_per_piece	float	Среднее время обработки одной детали \n
-leasing_payment	int/float	Регулярный платеж по лизингу оборудования \n
-lease_term	int	Продолжительность срока лизинга (месяцы) \n
+manufacturer_name	str	Название производителя  \n 
+freze_price	int/float	Стоимость одной фрезы  \n 
+tool_life	int	Ресурс инструмента (сколько деталей он способен обработать) \n 
+cutting_speed	int/float	Скорость резания (используется для анализа производительности) \n 
+production_cost_per_piece	int/float	Себестоимость производства одной детали \n 
+product_selling_price	int/float	Цена реализации готового изделия \n 
+additional_costs	int/float	Дополнительные фиксированные расходы \n 
+equipment_amortization	int/float	Амортизация оборудования \n 
+hourly_wage	int/float	Среднечасовая ставка оплаты труда \n 
+time_per_piece	float	Среднее время обработки одной детали \n 
+leasing_payment	int/float	Регулярный платеж по лизингу оборудования \n 
+lease_term	int	Продолжительность срока лизинга (месяцы) \n 
 
 #### Методы:
 calculate_roi(): Возвращает коэффициент рентабельности инвестиций (ROI) в процентах. \n
