@@ -56,7 +56,7 @@ if __name__ == "__main__":
         {
             'manufacturer': 'Производитель А',
             'freze_price': 5000,
-            'tool_life': 10000,
+            'tool_life': 5,
             'cutting_speed': 200,
             'production_cost_per_piece': 10,
             'product_selling_price': 50,
@@ -70,7 +70,7 @@ if __name__ == "__main__":
         {
             'manufacturer': 'Производитель Б',
             'freze_price': 7000,
-            'tool_life': 15000,
+            'tool_life': 15,
             'cutting_speed': 250,
             'production_cost_per_piece': 12,
             'product_selling_price': 55,
